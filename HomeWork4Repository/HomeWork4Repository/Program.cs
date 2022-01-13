@@ -21,7 +21,7 @@ namespace HomeWork4Repository
             int[] masEvenNumbers = new int[countEvenNumbersInMas];
             int[] masOddNumbers = new int[countOddNumbersInMas];
             WriteToArrayNumbers(masNumbers, ref masEvenNumbers, ref masOddNumbers);
-            const string strUpperLetters = "aeidhj";
+            const string strUpperLetters = "AEIDHJ"; // "aeidhj";
             int countUpperLetterEvent = 0;
             int countLowerLetterOdd = 0;
             string[] masEvenLetters = WriteToArrayLetters(masEvenNumbers, strUpperLetters, ref countUpperLetterEvent);
